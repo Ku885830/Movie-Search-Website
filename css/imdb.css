@@ -1,0 +1,110 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #081b29 !important;
+    background-image: url('/movieapi489.netlify.app/image/background.jpg') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 70% !important;
+    background: #00abf0;
+    padding: 20px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    backdrop-filter: blur(20px) saturate(380%) contrast(70%);
+    border-radius: 8px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    background-color: #112e42;
+    color: white;
+    line-height: 90px;
+    font-size: 60px;
+    font-family: "Lato";
+    font-weight: 600;
+}
+
+.input-group {
+    max-width: 500px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.input-group .search {
+    text-align: center;
+    align-items: center;
+    font-family: "Lato";
+}
+
+.container .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin-top: 50px;
+    width: fit-content;
+    height: 340px;
+    padding: 5px;
+    border: 3px solid #00abf0;
+    text-align: center;
+    font-family: "Lato";
+    color: white;
+}
+
+.box p {
+    font-size: 16px;
+}
+
+.poster {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.heading {
+    float: right;
+}
+
+@media (min-width: 228px) and (max-width: 528px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        line-height: 50px;
+        font-size: 32px;
+        font-family: "Lato";
+        font-weight: 500;
+    }
+
+    .box {
+        margin-top: 50px;
+        width: fit-content;
+        height: auto;
+        padding: 5px;
+        border: 3px solid #00abf0;
+        text-align: center;
+        font-family: "Lato";
+        color: white;
+    }
+
+        .box p {
+            font-size: 14px;
+        }
+
+}
